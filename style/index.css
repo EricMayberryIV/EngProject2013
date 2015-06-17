@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family: sans-serif;
+}
+
+.wrap
+{
+	width: 700px;
+	margin: auto;
+	background-color: rgb(255,255,255);
+	background: rgba(255,255,255,.5);
+	padding-top: 1px;
+	padding-bottom: 10px;
+}
+
+.title
+{
+	margin: auto;
+	background-color: #FFF;
+	height: 80px;
+	width: 680px;
+}
+
+.title h1
+{
+	color: #2C64B4;
+	font-family: sans-serif;
+	text-align: center;
+	height: 20px;
+}
+
+.nav
+{
+	margin: auto;
+	width: 690px;
+	background-color: #2C64B4;
+}
+
+.nav ul
+{
+	padding-left: 220px;
+	padding-right: 220px;
+}
+
+.nav li
+{
+	display: inline;
+}
+
+.nav a
+{
+	color: #FFF;
+}
+
+.nav a:hover
+{
+	color: #72A1E4;
+}
+
+.teampanel
+{
+	width: 680px;
+	height: 296px;
+	margin: auto;
+	background-color: #FFF;
+}
+
+.teamimg
+{
+	float: left;
+	height: 300px;
+	width: 460px;
+	padding-left: 15px;
+}
+
+.teammemb
+{
+	float: left;
+	height: 295px;
+	width: 190px;
+	text-align: center;
+}
+
+.teammemb a
+{
+	color: #2C64B4;
+}
+
+.teammemb a:hover
+{
+	color: #888;
+}
+
+#bottom
+{
+	width: 680px;
+	height: 310px;
+	margin: auto;
+	padding-top: 10px;
+	background-color: #FFF;
+}
+
+#bottomleft
+{
+	float: left;
+	width: 203px;
+	height: 290px;
+	background-color: #2C64B4;
+	color: #FFF;
+	padding: 5px;
+	margin-left: 10px;
+	margin-right: 5px;
+	font-family: georgia, serif;
+}
+
+#bottomleft img
+{
+	margin: auto;
+}
+
+#bottomcenter
+{
+	float: left;
+	width: 203px;
+	height: 290px;
+	color: #FFF;
+	background-color: #2C64B4;
+	padding: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#bottomright
+{
+	float: left;
+	width: 203px;
+	height: 225px;
+	background-color: #2C64B4;
+	text-align: center;
+	padding: 5px;
+	padding-top: 70px;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+#bottomright a
+{
+	font-family: sans-serif;
+	color: #FFF;
+}
+
+#bottomright a:hover
+{
+	color: #72A1E4;
+}
